@@ -1,0 +1,77 @@
+body { 
+    background:purple; 
+}
+  
+    
+#wrapper { 
+    width:160px; 
+    margin:20px auto; 
+}
+
+ #button {
+      display:block; 
+      width:150px; 
+      height:150px; 
+      background:#d37dbd;
+      -moz-border-radius: 75px;
+       border-radius: 75px; 
+       -moz-box-shadow: -7px 0 0 0 pink; 
+       -webkit-box-shadow: -7px 0 0 0 pink;
+        box-shadow: -7px 0 0 pink; }
+    #button_inner {
+        display:block; 
+        width:100px; 
+        height:100px;
+        background:pink;
+        -moz-border-radius: 50px;
+         border-radius: 50px; 
+         -moz-box-shadow: inset -7px 0 0 #891b8d; 
+         -webkit-box-shadow: inset -7px 0 0 #f547d8;
+          box-shadow: inset -7px 0 0 #bb1a98; 
+          position:relative; 
+          left:25px; 
+          top:25px;
+          border:2px solid pink; 
+        }
+     #button_inner ul { 
+        list-style-type:none; 
+         margin:0; 
+         padding:0; 
+         width:60px;
+ }
+     #button_inner ul li { 
+        display:inline-block; 
+        width:18px; 
+        height:18px; 
+        margin:4px; 
+        background:rgb(223, 132, 215);
+        -moz-border-radius: 9px; 
+         border-radius: 9px;
+         -moz-box-shadow: inset -3px 0 0 #f777f7; 
+         -webkit-box-shadow: inset -3px 0 0 #c72fa1; 
+          box-shadow: inset -3px 0 0 #920870; 
+          position:relative; position:relative;
+          top:22px; 
+           left:20px; 
+        }
+  #shadow { position:relative;
+	height: 12px;
+    width: 140px;
+    top: 30px;
+    left: 0px;
+    background-image: -moz-radial-gradient(50% 50%, ellipse closest-corner, rgba(41, 24, 8, 0.7), rgba(126, 39, 111, 0.7) 74%);
+    background-image: -webkit-radial-gradient(50% 50%, ellipse closest-corner, rgba(41, 24, 8, 0.7), rgba(126, 39, 111, 0.7) 74%);
+    background-image: -o-radial-gradient(50% 50%, ellipse closest-corner, rgba(41, 24, 8, 0.7), rgba(126, 39, 111, 0.7) 74%);
+    background-image: -ms-radial-gradient(50% 50%, ellipse closest-corner, rgba(41, 24, 8, 0.7), rgba(126, 39, 111, 0.7) 74%);
+    background-image: radial-gradient(50% 50%, ellipse closest-corner, rgba(41, 24, 8, 0.7), rgba(126, 39, 111, 0.7) 74%);
+}
+
+@-webkit-keyframes twist {
+    from { -webkit-transform: scaleX(1); }
+    to { -webkit-transform: scaleX(0.9); }
+}
+
+.twist {
+	-webkit-animation: twist 3s ease-in-out infinite;
+	-webkit-animation-direction: alternate;
+}
